@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{527D30D6-FBBE-16D7-61BF-FD632ABC0FCA}") = "GuardianKnightV", "Assembly-CSharp.csproj", "{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}"
+EndProject
+Project("{527D30D6-FBBE-16D7-61BF-FD632ABC0FCA}") = "GuardianKnightV", "Assembly-CSharp-Editor.csproj", "{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

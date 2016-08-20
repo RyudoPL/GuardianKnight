@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4F49BB2F-BF59-52F3-03DB-883C54A3F3F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AN_ManifestManagerMenu.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AN_ManifestManagerWindow.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddPermissionDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddPropertyDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddValueDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativeInit.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativeMenu.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativePostProcess.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativeSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Editor\SocialPlatfromInit.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Editor\SocialPlatfromSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Editor\SocialPlatfromSettingsHelper.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\IOSDeployPostProcess.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\ISDMenu.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\ISDSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\MobileSocialPlugin\Scripts\Editor\MSPPostProcess.cs" />
+     <Compile Include="Assets\Extensions\MobileSocialPlugin\Scripts\Editor\SocialPlatfromMenu.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\PluginsInstalationUtil.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_Bool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_EditorTool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_RemoveTool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_VersionsManager.cs" />
+     <None Include="Assets\Plugins\StansAssets\Versions\MSP_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\social\an_social.txt" />
+     <None Include="Assets\Resources\lang.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-games.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-ads-lite.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-gcm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-basement.jar.txt" />
+     <None Include="Assets\Sprites\Knight\readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Extensions\AndroidNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-auth.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\billing\an_billing.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\social\an_social.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-plus.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\android-support-v4.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-iid.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NativeCore.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-base.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\androidnative.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\image-chooser-library-1.6.0.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\an_googleplay.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-gcm.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-analytics.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-appinvite.jar.txt" />
+     <None Include="Assets\Extensions\AndroidManifestManager\default.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\support-v4-23.4.0.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-auth.jar.txt" />
+     <None Include="Assets\Extensions\AndroidNative\Documentation\AN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\androidnative.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NativeCore.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-plus.jar.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\AndroidManifest.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-ads.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-auth-base.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-iid.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\an_googleplay.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\app_licensing\an_licensing_library.txt" />
+     <None Include="Assets\Menu\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\AndroidManifest.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-base.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-analytics.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Extensions\IOSDeploy\Documentation\ReadMe.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\social\twitter4j-core-4.0.4.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\an_sa_soomla.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-games.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-analytics-impl.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-auth-base.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_SocialGate.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Versions\AN_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-analytics-impl.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-basement.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-drive.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-drive.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-ads.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-ads-lite.jar.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\play-services-appinvite.txt" />
+     <None Include="Assets\Sprites\LevelTiles\Fantasy Environment and Animated Characters (Pixel Art) [free add-on]\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\billing\an_billing.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/Ryudo/GuardianKnightV/GuardianKnightV/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{3D9D7CD9-9839-68D5-6635-BAF9277D4EC7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

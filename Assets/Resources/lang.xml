@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+    <English>
+        <string name="connect_google">Connect to Google Play</string>
+        <string name="disconnect_google">Disconnect</string>
+        <string name="controls">Controls</string>
+        <string name="player_control">1.Hold your finger on the knight and move it up/down to control your hero.</string>
+        <string name="tap_spell">2.Tap a spell icon to choose it.</string>
+        <string name="use_spell">3.By moving your finger, choose where to cast the spell and tap the screen twice to use it.</string>
+        <string name="slow">This icon means that an enemy is under slow effect. It is moving 50% slower.</string>
+        <string name="attack">Enemy's attack deals twice a damage to the knight (only if two enemies of the same kind stand next to each other).</string>
+        <string name="defense">Your attacks deal half a damage (only if two enemies of the same kind stand next to each other).</string>
+        <string name="recovery">Rebuilds a bit of castle walls</string>
+        <string name="blue_fire">Burns the ground which cause constant damage to anyone who steps on it.</string>
+        <string name="dizzy">Causes the enemy to stop for a brief moment.</string>
+        <string name="electric_ball">Deals damage to the enemy and its surroundings.</string>
+        <string name="explosion">Deals huge damage to enemies.</string>
+        <string name="water_ball">Deals damage to an enemy and slows it down.</string>
+        <string name="devil_await">Deals huge damage to enemies and swaps all spells on your hand.</string>
+        <string name="arcade">In this mode it is you against continued flow of enemies. You can earn bonus equipment, which will help you survive in Arena mode. Your spells don't consume any mana.</string>
+        <string name="arena">In the Arena Mode you need to survive as many days as possible trying to defend your castle from monsters. You need to conserve your energy, which is depleting every time you use a spell.</string>
+        <string name="skeleton">Speed:Medium Attack: Weak HP: Low</string>
+        <string name="zombie">Speed: Slow Attack: Weak HP: Low</string>
+        <string name="vampire">Speed: Fast Attack: Medium HP: Low</string>
+        <string name="gollem">Speed: Slow Attack: Strong HP: High</string>
+        <string name="sfx_volume">Effects Volume</string>
+        <string name="music_volume">Music Volume</string>
+        <string name="statuses">Statuses</string>
+        <string name="spells">Spells</string>
+        <string name="modes">Game Modes</string>
+        <string name="enemies">Enemies</string>
+        <string name="sound_options">SOUND OPTIONS</string>
+        <string name="ux">UX/UI</string>
+        <string name="sound">Sound</string>
+        <string name="translation">Translation</string>
+        <string name="credits">Credits</string>
+    </English>
+    
+    <Japanese>
+        <string name="connect_google">Google Playにアクセス</string>
+        <string name="disconnet_google">接続を解除</string>
+		<string name="controls">ゲームの操作方法</string>
+		<string name="player_control">1.指を上下することで、キャラを操作できる。</string>
+		<string name="tap_spell">2.スペルを選ぶには、該当する画像をタップして。</string>
+		<string name="use_spell">3.スペルを使うには、２度タップすること。</string>
+		<string name="slow">モンスターの移動速度が50%下がる。</string>
+		<string name="attack">モンスターの攻撃力が2倍にアップする(同種類のモンスターが隣に立っているときに限られる）。</string>
+		<string name="defense">君の攻撃力が50%下がる(同種類のモンスターが隣に立っているときに限られる）。</string>
+		<string name="recovery">城壁の一部を修繕する。</string>
+		<string name="blue_fire">土地を燃やして、侵入するモンスターにダメージを与える。</string>
+		<string name="dizzy">モンスターを一時的に止まらせる。</string>
+		<string name="electric_ball">モンスターとモンスター周辺にダメージを与える。</string>
+		<string name="explosion">モンスターに大きなダメージを与える。</string>
+		<string name="water_ball">ダメージを与え、モンスターを遅らせる。</string>
+		<string name="devil_await">モンスターに大きなダメージを与え、選択できるスペルをスワップする。</string>
+		<string name="arcade">アルケード・モードでは、次々と現れるモンスターと戦う。このモードでは、アリーナで役に立つボーナス・ツールが手に入る。スペルを使うと、君のエネルギーが減らない。</string>
+		<string name="arena">アリーナ・モードでは、モンスターから城を守り、できるだけ長く生き延びるんだ！　スペルを使うたびに、エネルギーが減っていくので、注意！</string>
+		<string name="skeleton">速度:普通 攻撃力:低 HP: 低</string>
+		<string name="zombie">速度: 遅 攻撃力:弱 HP: 低</string>
+		<string name="vampire">速度: 速 攻撃力:普通 HP: 低</string>
+		<string name="gollem">速度: 遅 攻撃力: 強 HP: 高</string>
+		<string name="sfx_volume">SE音量</string>
+		<string name="music_volume">BGM音量</string>
+		<string name="statuses">ステータス</string>
+		<string name="spells">スペル一覧</string>
+		<string name="modes">ゲーム・モード</string>
+		<string name="enemies">モンスター一覧</string>
+		<string name="sound_options">音声設定</string>
+		<string name="ux">グラフィック</string>
+		<string name="sound">音声</string>
+		<string name="translation">翻訳</string>
+		<string name="credits">クレジット</string>
+    </Japanese>
+    
+    <Polish>
+        <string name="connect_google">Połącz z Google Play</string>
+        <string name="disconnet_google">Odłącz z Google Play</string>
+        <string name="controls">Jak grać?</string>
+        <string name="player_control">1.Postacią możesz kierować poprzez przesuwamie palcem w górę i w dół.</string>
+        <string name="tap_spell">2.Aby wybrać zaklęcie, dotknij odpowiadający mu obrazek.</string>
+        <string name="use_spell">3.Stuknij dwa razy,aby użyć zaklęcia.</string>
+        <string name="slow">Oznacza, że przeciwnik został spowoloniony. Prędkość poruszania spada o połowę.</string>
+        <string name="attack">Ataki wroga zadają podwójne obrażenia(tylko jeżeli dwóch wrogów tego samego typu stoi koło siebie).</string>
+        <string name="defense">Twoje ataki zadają połowę obrażeń(tylko jeżeli dwóch wrogów tego samego typu stoi koło siebie).</string>
+        <string name="recovery">Odnawia część życia.</string>
+        <string name="blue_fire">Podpala ziemię, która zadaja obrażenia wrogom, którzy na nią wejdą.</string>
+        <string name="dizzy">Zatrzymuje wroga na pewien czas.</string>
+        <string name="electric_ball">Zadaje obrażenia wrogowi i jego otoczeniu.</string>
+        <string name="explosion">Zadaje duże obrażenia wrogom.</string>
+        <string name="water_ball">Zadaje obrażenia wrogowi i spowalnia go.</string>
+        <string name="devil_await">Zadaje duże obrażenia wrogom i podmienia zaklęcia z puli.</string>
+        <string name="arcade">W tym trybie walczysz z nieustającą falą wrogów. Zdobywasz bonusowy ekwipunek, który pomoże Ci przetrwać w trybie Areny.Zaklęcia nie obniżają energii.</string>
+        <string name="arena">W trybie Arena musisz przetrwać jak najwięcej dni, broniąc zamku przed potworami. Każde użycie zaklęcia obniża Twoją energię.</string>
+        <string name="skeleton">Poruszanie: średni Atak: słaby Życie: niskie</string>
+        <string name="zombie">Poruszanie: wolny Atak: słaby Życie: niskie</string>
+        <string name="vampire">Poruszanie: szybki Atak: średni Życie: niskie</string>
+        <string name="gollem">Poruszanie: wolny Atak: silny HP: wysokie</string>
+        <string name="sfx_volume">Głośność efektów</string>
+        <string name="music_volume">Głośność muzyki</string>
+        <string name="statuses">Statusy</string>
+        <string name="spells">Zaklęcia</string>
+        <string name="modes">Tryby gry</string>
+        <string name="enemies">Potwory</string>
+        <string name="sound_options">Ustawienia dźwięku</string>
+        <string name="ux">Grafika</string>
+        <string name="sound">Dżwięk</string>
+        <string name="translation">Tłumaczenia</string>
+        <string name="credits">Podziękowania</string>
+    </Polish>
+
+</languages>

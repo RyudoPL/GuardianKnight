@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">1082095709202</string>
+    <string name="package_name">com.jollygoat.guardianknight</string>
+    <string name="achievement_scholar">CgkIkti4j78fEAIQAg</string>
+    <string name="achievement_not_scared_of_you">CgkIkti4j78fEAIQAw</string>
+    <string name="achievement_loot">CgkIkti4j78fEAIQBA</string>
+    <string name="achievement_hoarder">CgkIkti4j78fEAIQBQ</string>
+    <string name="achievement_survivalist">CgkIkti4j78fEAIQBg</string>
+    <string name="achievement_perseverance">CgkIkti4j78fEAIQBw</string>
+    <string name="achievement_fearless">CgkIkti4j78fEAIQCA</string>
+    <string name="achievement_darkness_is_my_friend">CgkIkti4j78fEAIQCQ</string>
+    <string name="achievement_energysaver">CgkIkti4j78fEAIQCg</string>
+    <string name="achievement_magician">CgkIkti4j78fEAIQCw</string>
+    <string name="achievement_loser">CgkIkti4j78fEAIQDA</string>
+    <string name="achievement_untouchable">CgkIkti4j78fEAIQDQ</string>
+    <string name="achievement_this_is_just_the_beginning">CgkIkti4j78fEAIQDg</string>
+    <string name="achievement_i_am_thor">CgkIkti4j78fEAIQDw</string>
+    <string name="achievement_points_are_not_everything">CgkIkti4j78fEAIQEA</string>
+    <string name="achievement_destroyer">CgkIkti4j78fEAIQEQ</string>
+    <string name="achievement_annihilator">CgkIkti4j78fEAIQEg</string>
+    <string name="achievement_spin_it">CgkIkti4j78fEAIQEw</string>
+    <string name="achievement_can_i_go">CgkIkti4j78fEAIQFA</string>
+    <string name="achievement_engulfed_in_flames">CgkIkti4j78fEAIQFQ</string>
+    <string name="leaderboard_high_scores">CgkIkti4j78fEAIQAQ</string>
+</resources>
+

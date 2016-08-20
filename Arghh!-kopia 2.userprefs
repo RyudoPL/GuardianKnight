@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Extensions/AndroidNative/xExample/Scripts/PlayService/PlayServiceExample.cs">
+    <Files>
+      <File FileName="Assets/Extensions/AndroidNative/xExample/Scripts/PlayService/PlayServiceExample.cs" Line="9" Column="19" />
+      <File FileName="Assets/Extensions/AndroidNative/xExample/Scripts/Billing/GamePlayExample.cs" Line="28" Column="18" />
+      <File FileName="Assets/Extensions/AndroidNative/xExample/Scripts/Billing/GameBillingManagerExample.cs" Line="99" Column="48" />
+      <File FileName="Assets/Extensions/AndroidNative/Billing/Manage/AndroidInAppPurchaseManager.cs" Line="66" Column="3" />
+      <File FileName="Assets/Extensions/AndroidNative/Editor/AndroidNativeSettingsEditor.cs" Line="1835" Column="48" />
+      <File FileName="Assets/Extensions/GooglePlayCommon/Core/AndroidNativeSettings.cs" Line="75" Column="14" />
+      <File FileName="Assets/Extensions/AndroidNative/xExample/Scripts/Billing/GameDataExample.cs" Line="25" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
